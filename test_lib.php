@@ -12,7 +12,7 @@ for ($i = 0; $i < count($items); $i++) {
 $labels = array("sunset" => "Warm Sunset", "ocean" => "Cool Ocean", "candy" => "Pink Candy");
 
 echo "<br>Theme ocean is called " . $labels["ocean"] . "<br><br>";
-
+//fix bugs B
 $n = 3;
 do {
     echo $n . "... ";

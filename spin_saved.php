@@ -17,6 +17,8 @@ if (count($items) < 1) {
 $winnerIndex = rand(0, count($items) - 1);
 $winner = $items[$winnerIndex];
 
+//fix bugs A
+
 $w = mysqli_real_escape_string($conn, $winner);
 mysqli_query($conn, "INSERT INTO spins (wheel_id, winner) VALUES ($id, '$w')");
 ?>
